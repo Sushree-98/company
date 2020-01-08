@@ -1,0 +1,173 @@
+body{
+    
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 22px
+}
+#nav-bar
+{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px
+    
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: white !important;
+    font-weight: 200;
+    float: right;
+}
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size:40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.play-btn
+{
+    width: 20px;
+    margin: 5px;
+}
+#banner a
+{
+    color: white;
+    text-decoration: none;
+}
+#services
+{
+    padding: 80px 0;
+}
+.service-image
+{
+    width: 100px;
+    margin-top: 35px;
+    image-orientation: centre;
+}
+h{
+    font-size: 30px
+}
+.services
+{
+    padding: 30px
+}
+.text-centre h
+{
+    text-align: center;
+}
+.fontsize-h
+{
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    font-size: 1em;
+    line-height: 28px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.index-p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Caveat', cursive;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+.bg-dark-light {
+    background: #323232 !important;
+}
+.bg-theme, .bg-dark, .bg-dark-light, .bg-secondary {
+    color: #ffffff;
+}
+.widgets.footer-widgets .widget-title {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.widgets.footer-widgets .widget-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100px;
+    background: #13bfb1;
+}
+.widgets.footer-widgets .widget-quick-links ul {
+    margin-top: -4px;
+}
+.widgets.footer-widgets .single-widget ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.widgets.footer-widgets .widget-quick-links ul li {
+    display: block;
+}
+.widgets.footer-widgets .widget-quick-links ul li a {
+    display: block;
+    font-size: 13px;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 9px 0;
+}
+
+.widgets.footer-widgets .single-widget ul li {
+    list-style: none;
+    font-family: "Raleway", sans-serif;
+}
+.widgets.footer-widgets .widget-contact ul li {
+    color: #000;
+    font-size: 13px;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+}
+.widgets.footer-widgets .widget-contact ul li span {
+    font-size: 14px;
+    color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.widgets.footer-widgets .widget-contact ul li.phone, .widgets.footer-widgets .widget-contact ul li.fax {
+    font-size: 15px;
+}
+
+.widgets.footer-widgets .widget-contact ul li + li {
+    margin-top: 20px;
+}
